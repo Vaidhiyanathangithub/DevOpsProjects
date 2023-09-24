@@ -28,7 +28,7 @@
 
     - name: Check Filesystem and Disk Space
       command: df -Th
-      register: filesystem_space
+      register: filesystem_space 
 
     - name: Debug Filesystem Space
       debug:
